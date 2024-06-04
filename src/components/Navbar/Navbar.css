@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(157, 163, 199);
+  padding: 5px 20px;
+}
+.nav-logo img {
+  width: 100px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  color: crimson;
+  padding-bottom: 5px;
+}
+nav ul li:hover {
+  background-color: rgb(153, 114, 231);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Media Query */
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+  }
+  nav ul li {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,80 @@
+.services-container {
+  margin: 20px;
+}
+.services-list-container {
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(185, 179, 226);
+}
+.service-item {
+  padding: 20px;
+  background-color: rgb(241, 237, 237);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.service-item-container service-item p:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: black;
+  color: aliceblue;
+  padding: 30px;
+}
+.service-item i {
+  font-size: 3rem;
+  margin: 12px;
+}
+.fa-code {
+  color: rgb(92, 92, 131);
+}
+.fa-desktop {
+  color: rgb(174, 137, 104);
+}
+.fa-tablet-alt {
+  color: rgb(118, 90, 102);
+}
+.service-desc-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+  align-items: flex-start;
+  background-color: rgb(241, 237, 237);
+  border-radius: 20px;
+}
+.service-desc-container p {
+  padding-top: 30px;
+}
+.services-container h1 span {
+  padding: 3px;
+  color: rgb(42, 42, 77);
+  font-size: 3rem;
+}
+.services-container h1 {
+  padding: 3px;
+  font-size: 3rem;
+}
+.service-desc-container button {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: rgb(157, 157, 229);
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+/*Media query*/
+@media (min-width: 788px) {
+  .services-list-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .service-desc-container {
+    width: 50%;
+  }
+  .service-item-container {
+    width: 60%;
+  }
+}

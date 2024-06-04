@@ -1,0 +1,22 @@
+footer {
+  background-color: rgb(157, 163, 199);
+  color: rgb(34, 19, 95);
+  text-align: center;
+  padding: 20px;
+}
+footer img {
+  width: 61px;
+}
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social-media li {
+  list-style: none;
+}
+.footer-social-media li a {
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 14px;
+}
